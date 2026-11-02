@@ -1,6 +1,6 @@
 {
   "name": "AlashRelay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy relay library: no start click, active-low, timers, switching protection, interlock, clear tips (ru/kk/en), no dependencies",
   "keywords": "relay, switch, timer, interlock, motor reverse, safety, active low",
   "repository": {

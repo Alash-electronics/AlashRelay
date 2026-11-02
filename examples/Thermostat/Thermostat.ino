@@ -1,6 +1,12 @@
-// AlashRelay: термостат с защитой. Реле греет, пока температура ниже порога. setMinSwitchMs(30000) не даёт реле щёлкать чаще
-// раза в 30 секунд (контакты и нагреватель живут дольше), setMaxOnMs() выключит нагрев, если он включён слишком долго.
-// Температура с аналогового датчика LM35 на пине A0 (10 мВ на градус).
+// [ru] AlashRelay: термостат с защитой. Реле греет, пока температура ниже порога. setMinSwitchMs(30000) не даёт реле щёлкать чаще
+//      раза в 30 секунд (контакты и нагреватель живут дольше), setMaxOnMs() выключит нагрев, если он включён слишком долго.
+//      Температура с аналогового датчика LM35 на пине A0 (10 мВ на градус).
+// [kk] AlashRelay: қорғаныстағы термостат. Температура шектен төмен болғанда реле қыздырады. setMinSwitchMs(30000) релені 30 секундта бір реттен жиі
+//      шықылдатпайды (түйіспелер мен қыздырғыш ұзағырақ қызмет етеді), setMaxOnMs() қыздыру тым ұзақ қосулы тұрса өшіреді.
+//      Температура A0 пініндегі LM35 аналогтық датчигінен (градусына 10 мВ).
+// [en] AlashRelay: a thermostat with protection. The relay heats while the temperature is below the threshold. setMinSwitchMs(30000) keeps the relay from clicking more often
+//      than once in 30 seconds (the contacts and the heater last longer), setMaxOnMs() switches the heating off if it has been on too long.
+//      The temperature from an analog LM35 sensor on pin A0 (10 mV per degree).
 #include <AlashRelay.h>
 
 AlashRelay heater(7);
